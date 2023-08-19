@@ -1,7 +1,6 @@
-import {useCallback, useEffect, useMemo, useState} from "react";
+import {useCallback, useEffect, useState} from "react";
 import TodoForm from "./TodoForm";
 import TodoItems from "./TodoItems";
-import styled from "styled-components";
 
 export type Todo = {
   id: number
